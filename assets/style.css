@@ -1,0 +1,352 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+a.animated-button:link, a.animated-button:visited {
+    width: 20%;
+    margin: 0;
+	position: relative;
+	display: inline-block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+a.animated-button.victoria-one {
+    border: 2px solid #eb16c7c9;;
+    margin: 5px;
+    float: left;
+
+}
+a.animated-button.victoria-one:after {
+	background: #eb16c7c9;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+#gifInputText{
+    border-radius: 4px;
+    border: 1px #0600ffb5 solid;
+    block-size: 40px;
+    width: 60%;
+    margin: 10px;
+    margin-left: 5%;
+}
+#gifInputText{
+margin-left: 0;
+}
+.gif{
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+}
+.gifDisplayText{
+    float: left;
+    width: 300px;
+}
+body{
+    background: #000000fc;
+    width: 95%;
+    /*background: #000000fc;*/
+    
+}
+#inputLbl{
+    margin-left: 15%;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#buttons{
+    margin-left: 8%;
+}
+
+.colTextInput{
+    padding: 0;
+}
+.colLabel{
+    padding: 0;
+}
+.colform{
+    margin-left: 8%;
+}
+#firstRow{
+    background: #0000004d;
+    border: 2px white solid;
+    margin-top: 10px;
+}
+.fader{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: -99;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+.gifBtn{
+    margin: 5px;
+    font-size: 20px;
+}
+#gifDisplayImg{
+    background: #0000004a;
+    border: 2px white solid;
+    margin-top: 10px;
+}
+.gifDisplayText {
+    float: left;
+    width: 300px;
+    margin: 20px;
+}
+.gif {
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+}
+a#removeGifsText:link, a#removeGifsText:visited {
+    width: 100%;
+    
+   
+  
+	position: relative;
+	display: inline-block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a#removeGifsText:link:after, a#removeGifsText:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a#removeGifsText:link:hover, a#removeGifsText:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a#removeGifsText:link:hover:after, a#removeGifsText:visited:hover:after {
+	height: 450%;
+}
+a#removeGifsText:link, a#removeGifsText:visited {
+	position: relative;
+    display: block;
+    margin-top: 10px;
+    margin: 30px;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+a#removeGifsText {
+    border: 2px solid rgb(60, 38, 121);
+    margin: 5px;
+    float: left;
+   
+    
+}
+a#removeGifsText:after {
+	background: rgb(60, 38, 121);
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+
+/*GIF INPUT BTN*/
+a#gifInputBtn:link, a#gifInputBtn:visited {
+    width: 100%;
+    margin: 0;
+	position: relative;
+	display: inline-block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a#gifInputBtn:link:after, a#gifInputBtn:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a#gifInputBtn:link:hover, a#gifInputBtn:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a#gifInputBtn:link:hover:after, a#gifInputBtn:visited:hover:after {
+	height: 450%;
+}
+a#gifInputBtn:link, a#gifInputBtn:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+a#gifInputBtn {
+    border: 2px solid rgb(60, 38, 121);
+    margin: 5px;
+    float: left;
+    
+}
+a#gifInputBtn:after {
+	background: rgb(60, 38, 121);
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+    
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size:42px;
+    text-transform:uppercase;
+    color: transparent;
+      background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
+    background-size: 1000px 100%;
+    animation: bg 15s linear infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  @keyframes bg {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 10000px;
+    }
+  }
+
