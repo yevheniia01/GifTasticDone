@@ -4,59 +4,46 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="../GifTasticDone/assets/style.css">
-    
 </head>
 <body>
-      
-           
-    <div class="container">
-     
-        
-            <div class="row" id="firstRow">
-                
-                    <h1 class="col col-md-12">Hit Animal Button or Add Your Own</h1>
-                <div class="col col-md-12 col-sm-8" id="buttons">
-   
-        
-    </div>
+    <div class="fader"> </div>
+    <div class="container" id="firstRow">
+        <div class="row" >
+            <h1 class="col col-md-12 col-sm-12 col-xs-12">Hit Animal Button or Add Your Own</h1>
+        </div>
+        <div class="row">
+            <div class="col col-md-12 col-sm-12 col-xs-12" id="buttons">
+        </div>
     
     <div class="colform col-md-12">
-    <form id="gifForm">
-        <div class="colLabel col-md-3">
-        <label  for="gifInputText" id="inputLbl">Add a Movie, Yo!</label>
-        </div>
-        <div class="colTextInput col-md-8">
-        <input type="text" id="gifInputText">
-    </div>
-      
-        
-        <!-- Button triggers new movie to be added -->
-        <div class="col col-md-4">
-        <a href="#" id="gifInputBtn"  value="Add a Gif, Yo!">Add Your Button!</a>
-           </div> 
+        <form id="gifForm">
+            <div class="colLabel col-md-3">
+                <label  for="gifInputText" id="inputLbl">Add a Movie, Yo!</label>
+            </div>
+            <div class="colTextInput col-md-8">
+                <input type="text" id="InputText">
+            </div>
+     
+            <div class="col col-md-4 col-sm-4 col-xs-8">
+                <a href="#" id="InputBtn"  value="Add a Gif, Yo!">Add Your Button!</a>
+            </div> 
         <br>
-        <div class="col col-md-4">
-        <a href="#" id="removeGifsText">Remove All Gifs</a>
-           </div>
-      </form>
+            <div class="col col-md-4 col-sm-4 col-xs-8">
+                <a href="#" id="removeGifsText">Remove All Gifs</a>
+            </div>
+        </form>
     </div>
 </div>
-     
-    
-      <div class="colDisplayImg col-md-12" id="gifDisplayImg">
-          
-      </div>
-    
 
+    <div class="row">
+       <div class="colDisplayImg col-md-12 col-sm-10 col-xs-11" id="gifDisplayImg"></div>
     </div>
-
+</div>
        
-
-
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="../GifTasticDone/assets/main.js"></script>
 </body>
