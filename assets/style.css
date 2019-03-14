@@ -1,7 +1,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-
+/*ANIMATED BUTTONS*/
 a.animated-button:link, a.animated-button:visited {
     width: 20%;
     margin: 0;
@@ -65,8 +65,6 @@ a.animated-button:link, a.animated-button:visited {
 	transition: all 1s ease;
 }
 
-/* Victoria Buttons */
-
 a.animated-button.victoria-one {
     border: 2px solid #eb16c7c9;;
     margin: 5px;
@@ -81,88 +79,16 @@ a.animated-button.victoria-one:after {
 	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 }
 
-#gifInputText{
+
+
+
+#InputText{
     border-radius: 4px;
     border: 1px #0600ffb5 solid;
     block-size: 40px;
     width: 60%;
     margin: 10px;
     margin-left: 5%;
-}
-#gifInputText{
-margin-left: 0;
-}
-.gif{
-    width: 300px;
-    height: 250px;
-    padding: 5px;
-}
-.gifDisplayText{
-    float: left;
-    width: 300px;
-}
-body{
-    background: #000000fc;
-    width: 95%;
-    /*background: #000000fc;*/
-    
-}
-#inputLbl{
-    margin-left: 15%;
-    color: white;
-    font-size: 20px;
-    margin-top: 20px;
-}
-#buttons{
-    margin-left: 8%;
-}
-
-.colTextInput{
-    padding: 0;
-}
-.colLabel{
-    padding: 0;
-}
-.colform{
-    margin-left: 8%;
-}
-#firstRow{
-    background: #0000004d;
-    border: 2px white solid;
-    margin-top: 10px;
-}
-.fader{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left:0;
-    top:0;
-    z-index: -99;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-h1{
-    text-align: center;
-}
-.gifBtn{
-    margin: 5px;
-    font-size: 20px;
-}
-#gifDisplayImg{
-    background: #0000004a;
-    border: 2px white solid;
-    margin-top: 10px;
-}
-.gifDisplayText {
-    float: left;
-    width: 300px;
-    margin: 20px;
-}
-.gif {
-    width: 350px;
-    height: 250px;
-    padding: 10px;
 }
 a#removeGifsText:link, a#removeGifsText:visited {
     width: 100%;
@@ -249,7 +175,7 @@ a#removeGifsText:after {
 
 
 /*GIF INPUT BTN*/
-a#gifInputBtn:link, a#gifInputBtn:visited {
+a#InputBtn:link, a#InputBtn:visited {
     width: 100%;
     margin: 0;
 	position: relative;
@@ -271,7 +197,7 @@ a#gifInputBtn:link, a#gifInputBtn:visited {
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
 }
-a#gifInputBtn:link:after, a#gifInputBtn:visited:after {
+a#InputBtn:link:after, a#InputBtn:visited:after {
 	content: "";
 	position: absolute;
 	height: 0%;
@@ -284,14 +210,14 @@ a#gifInputBtn:link:after, a#gifInputBtn:visited:after {
 	-o-transition: all 0.75s ease 0s;
 	transition: all 0.75s ease 0s;
 }
-a#gifInputBtn:link:hover, a#gifInputBtn:visited:hover {
+a#InputBtn:link:hover, a#InputBtn:visited:hover {
 	color: #FFF;
 	text-shadow: none;
 }
-a#gifInputBtn:link:hover:after, a#gifInputBtn:visited:hover:after {
+a#InputBtn:link:hover:after, a#InputBtn:visited:hover:after {
 	height: 450%;
 }
-a#gifInputBtn:link, a#gifInputBtn:visited {
+a#InputBtn:link, a#InputBtn:visited {
 	position: relative;
 	display: block;
 	margin: 30px auto 0;
@@ -311,23 +237,89 @@ a#gifInputBtn:link, a#gifInputBtn:visited {
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
 }
-
-/* Victoria Buttons */
-
-a#gifInputBtn {
+a#InputBtn {
     border: 2px solid rgb(60, 38, 121);
     margin: 5px;
     float: left;
     
 }
-a#gifInputBtn:after {
+a#InputBtn:after {
 	background: rgb(60, 38, 121);
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 }
+/*=================================================================================================================*/
+#InputText{
+margin-left: 0;
+font-size: 20px;
+}
+.gif{
+	width: 350px;
+    height: 250px;
+    padding: 10px;
+}
+#gifDisplayText{
+	float: left;
+    width: 300px;
+    margin: 20px;
+}
+body{
+    background: #000000fc;
+    width: 95%;
+    /*background: #000000fc;*/
     
+}
+#inputLbl{
+    margin-left: 15%;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#buttons{
+    margin-left: 8%;
+}
+
+.colTextInput{
+    padding: 0;
+}
+.colLabel{
+    padding: 0;
+}
+.colform{
+    margin-left: 8%;
+}
+#firstRow{
+    background: #0000004d;
+    border: 2px white solid;
+    margin-top: 10px;
+}
+.fader{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: -99;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+.gifBtn{
+    margin: 5px;
+    font-size: 20px;
+}
+#gifDisplayImg{
+    background: #0000004a;
+    border: 2px white solid;
+    margin-top: 10px;
+}
+
+ /*ANIMATED TEXT=================================================================================================*/   
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -350,3 +342,4 @@ h1 {
     }
   }
 
+ 
