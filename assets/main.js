@@ -85,7 +85,7 @@ var colors = new Array(
       {
         count = 0;
       }
-    },4000);
+    },10000);
 //ACTUALL FUNCTIONALITY CODE STARTS HERE========================================================================
 
 //Array with buttons names
