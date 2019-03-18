@@ -251,6 +251,9 @@ a#InputBtn:after {
 	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 }
 /*=================================================================================================================*/
+#firstRow{
+	margin-left: 5%;
+}
 #InputText{
 margin-left: 0;
 font-size: 20px;
